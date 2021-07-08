@@ -34,7 +34,7 @@ jobs:
       - name: Restore Library cache
         uses: actions/cache@v2
         with:
-          path: test-projects/test-project/Library
+          path: Library
           key: Library-test-project-WebGL
 
       # Test
@@ -47,7 +47,6 @@ jobs:
       - name: Build project
         uses: webbertakken/unity-builder@v2
         with:
-          projectPath: test-projects/test-project
           targetPlatform: WebGL
 
       # Output
@@ -88,7 +87,7 @@ jobs:
       - name: Restore Library cache
         uses: actions/cache@v2
         with:
-          path: test-projects/test-project/Library
+          path: Library
           key: Library-test-project
           restore-keys: |
             Library-test-
@@ -96,7 +95,7 @@ jobs:
       - uses: webbertakken/unity-test-runner@v2
         id: testRunner
         with:
-          projectPath: test-projects/test-project
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
           testMode: editmode
 
       # Upload artifact
@@ -130,7 +129,7 @@ jobs:
       - name: Restore Library cache
         uses: actions/cache@v2
         with:
-          path: test-projects/test-project/Library
+          path: Library
           key: Library-test-project-${{ matrix.targetPlatform }}
           restore-keys: |
             Library-test-project-
@@ -139,7 +138,7 @@ jobs:
       - uses: webbertakken/unity-test-runner@v2
         id: testRunner
         with:
-          projectPath: test-projects/test-project
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
           testMode: playmode
 
       # Upload artifact
@@ -174,7 +173,7 @@ jobs:
       - name: Restore Library cache
         uses: actions/cache@v2
         with:
-          path: test-projects/test-project/Library
+          path: Library
           key: Library-test-project-${{ matrix.targetPlatform }}
           restore-keys: |
             Library-test-project-
@@ -183,7 +182,7 @@ jobs:
       - uses: webbertakken/unity-test-runner@v2
         id: testRunner
         with:
-          projectPath: test-projects/test-project
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
           testMode: all
 
       # Upload artifacts
@@ -202,13 +201,10 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        projectPath:
-          - test-projects/test-project
         targetPlatform:
           - StandaloneOSX # Build a macOS standalone (Intel 64-bit).
           - StandaloneWindows64 # Build a Windows 64-bit standalone.
           - StandaloneLinux64 # Build a Linux 64-bit standalone.
-          - iOS # Build an iOS player.
           - WebGL # WebGL.
     steps:
       - name: Checkout code
@@ -232,24 +228,22 @@ jobs:
       - name: Restore Library cache
         uses: actions/cache@v2
         with:
-          path: ${{ matrix.projectPath }}/Library
-          key: Library-buildAndTest-${{ matrix.projectPath }}-buildAndTest-${{ matrix.targetPlatform }}
+          path: Library
+          key: Library-buildAndTest-${{ matrix.targetPlatform }}
           restore-keys: |
-            Library-${{ matrix.projectPath }}-buildAndTest-
-            Library-${{ matrix.projectPath }}-
+            Library-buildAndTest-
+            Library-
       - uses: webbertakken/unity-test-runner@v2
         id: testRunner
         with:
-          projectPath: ${{ matrix.projectPath }}
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/upload-artifact@v2
         with:
           name: Test results (all modes)
           path: ${{ steps.testRunner.outputs.artifactsPath }}
       - uses: webbertakken/unity-builder@v2
         with:
-          projectPath: ${{ matrix.projectPath }}
           targetPlatform: ${{ matrix.targetPlatform }}
-          customParameters: "-myParameter myValue -myBoolean -ThirdParameter andItsValue"
       - uses: actions/upload-artifact@v2
         with:
           name: Build (${{ matrix.targetPlatform }})
