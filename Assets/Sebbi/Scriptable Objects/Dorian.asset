@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d0915e4f81eb18d19253500e4bf327b, type: 3}
+  m_Name: Dorian
+  m_EditorClassIdentifier: 
+  Name: Dorian
+  Message: Gratz
+  FontSize: 190
+  Image: {fileID: -3388299787382154534, guid: 8dce77f39ff84e6e3b0a66448c880f38, type: 3}

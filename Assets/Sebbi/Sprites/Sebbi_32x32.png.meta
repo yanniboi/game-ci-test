@@ -1,0 +1,4679 @@
+fileFormatVersion: 2
+guid: 18f7b48d6ff53fee7ace08a197c5793b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6725269350070188248
+    second: Sebbi_32x32_0
+  - first:
+      213: -5003577231539258745
+    second: Sebbi_32x32_1
+  - first:
+      213: 6145202714208567839
+    second: Sebbi_32x32_2
+  - first:
+      213: -4491412033639120211
+    second: Sebbi_32x32_3
+  - first:
+      213: 1478614232115364141
+    second: Sebbi_32x32_4
+  - first:
+      213: -1215197089304067646
+    second: Sebbi_32x32_5
+  - first:
+      213: 9145881778280589627
+    second: Sebbi_32x32_6
+  - first:
+      213: 9137946227402419754
+    second: Sebbi_32x32_7
+  - first:
+      213: -3016903376860682909
+    second: Sebbi_32x32_8
+  - first:
+      213: 5404015111872530179
+    second: Sebbi_32x32_9
+  - first:
+      213: -1182637771598646947
+    second: Sebbi_32x32_10
+  - first:
+      213: 7178914763265059022
+    second: Sebbi_32x32_11
+  - first:
+      213: 3699778561789871953
+    second: Sebbi_32x32_12
+  - first:
+      213: 6516004207396943273
+    second: Sebbi_32x32_13
+  - first:
+      213: -4895665695312583214
+    second: Sebbi_32x32_14
+  - first:
+      213: -6529389659557206160
+    second: Sebbi_32x32_15
+  - first:
+      213: 4237786225018452195
+    second: Sebbi_32x32_16
+  - first:
+      213: 7722925142975076416
+    second: Sebbi_32x32_17
+  - first:
+      213: -1317274953197091202
+    second: Sebbi_32x32_18
+  - first:
+      213: -2288584886174258932
+    second: Sebbi_32x32_19
+  - first:
+      213: 1622201378004282167
+    second: Sebbi_32x32_20
+  - first:
+      213: 8441234926906134035
+    second: Sebbi_32x32_21
+  - first:
+      213: -6956729719288913717
+    second: Sebbi_32x32_22
+  - first:
+      213: 5913565282544613789
+    second: Sebbi_32x32_23
+  - first:
+      213: 6900232619835937037
+    second: Sebbi_32x32_24
+  - first:
+      213: 5128453445399726599
+    second: Sebbi_32x32_25
+  - first:
+      213: 607590859587356366
+    second: Sebbi_32x32_26
+  - first:
+      213: 5211257469937412314
+    second: Sebbi_32x32_27
+  - first:
+      213: -9047188911512226617
+    second: Sebbi_32x32_28
+  - first:
+      213: -7009708822027121947
+    second: Sebbi_32x32_29
+  - first:
+      213: 6347810714196923286
+    second: Sebbi_32x32_30
+  - first:
+      213: 5149799100875797308
+    second: Sebbi_32x32_31
+  - first:
+      213: -7053458459643133851
+    second: Sebbi_32x32_32
+  - first:
+      213: 4855782726183917092
+    second: Sebbi_32x32_33
+  - first:
+      213: 8192820225526342301
+    second: Sebbi_32x32_34
+  - first:
+      213: 835975879636637294
+    second: Sebbi_32x32_35
+  - first:
+      213: -7479399414362618895
+    second: Sebbi_32x32_36
+  - first:
+      213: 7913397818400395247
+    second: Sebbi_32x32_37
+  - first:
+      213: -5642876942694286791
+    second: Sebbi_32x32_38
+  - first:
+      213: -1991166329460291106
+    second: Sebbi_32x32_39
+  - first:
+      213: -4579630676442726322
+    second: Sebbi_32x32_40
+  - first:
+      213: 1897467500713013955
+    second: Sebbi_32x32_41
+  - first:
+      213: 6246764248313398112
+    second: Sebbi_32x32_42
+  - first:
+      213: 573919980646029296
+    second: Sebbi_32x32_43
+  - first:
+      213: -540252471296081140
+    second: Sebbi_32x32_44
+  - first:
+      213: 2675217279295425809
+    second: Sebbi_32x32_45
+  - first:
+      213: -3016444710689003627
+    second: Sebbi_32x32_46
+  - first:
+      213: -4335531333696953784
+    second: Sebbi_32x32_47
+  - first:
+      213: -719566835223406954
+    second: Sebbi_32x32_48
+  - first:
+      213: 1332276830973860003
+    second: Sebbi_32x32_49
+  - first:
+      213: 4044846585591400240
+    second: Sebbi_32x32_50
+  - first:
+      213: 4193144085173302821
+    second: Sebbi_32x32_51
+  - first:
+      213: 5269172983698171444
+    second: Sebbi_32x32_52
+  - first:
+      213: 1130830082175341034
+    second: Sebbi_32x32_53
+  - first:
+      213: 2060838134539429095
+    second: Sebbi_32x32_54
+  - first:
+      213: 3415927295704022983
+    second: Sebbi_32x32_55
+  - first:
+      213: -8037255175252263912
+    second: Sebbi_32x32_56
+  - first:
+      213: 8478378091307179908
+    second: Sebbi_32x32_57
+  - first:
+      213: 4267307074667629097
+    second: Sebbi_32x32_58
+  - first:
+      213: 2205757142366675968
+    second: Sebbi_32x32_59
+  - first:
+      213: -2226012412853497413
+    second: Sebbi_32x32_60
+  - first:
+      213: -3991300089824644332
+    second: Sebbi_32x32_61
+  - first:
+      213: 2429899131723877467
+    second: Sebbi_32x32_62
+  - first:
+      213: -8008206082018780954
+    second: Sebbi_32x32_63
+  - first:
+      213: -5175628709469856593
+    second: Sebbi_32x32_64
+  - first:
+      213: 3199738344097615645
+    second: Sebbi_32x32_65
+  - first:
+      213: -5564013142031148086
+    second: Sebbi_32x32_66
+  - first:
+      213: 925809797788646412
+    second: Sebbi_32x32_67
+  - first:
+      213: -8423788621639637261
+    second: Sebbi_32x32_68
+  - first:
+      213: 2568293842933506393
+    second: Sebbi_32x32_69
+  - first:
+      213: -7286249065512660562
+    second: Sebbi_32x32_70
+  - first:
+      213: 51521628370644003
+    second: Sebbi_32x32_71
+  - first:
+      213: -2699761714253405941
+    second: Sebbi_32x32_72
+  - first:
+      213: 755950782384178694
+    second: Sebbi_32x32_73
+  - first:
+      213: -8511592565023276035
+    second: Sebbi_32x32_74
+  - first:
+      213: 2373104127273019675
+    second: Sebbi_32x32_75
+  - first:
+      213: 3699676547405741504
+    second: Sebbi_32x32_76
+  - first:
+      213: 5403508428135488420
+    second: Sebbi_32x32_77
+  - first:
+      213: -8612442446145485434
+    second: Sebbi_32x32_78
+  - first:
+      213: 4182826529560092188
+    second: Sebbi_32x32_79
+  - first:
+      213: -6651065409493028492
+    second: Sebbi_32x32_80
+  - first:
+      213: 3301708935533713525
+    second: Sebbi_32x32_81
+  - first:
+      213: 1831584030641473066
+    second: Sebbi_32x32_82
+  - first:
+      213: -5383934772042588359
+    second: Sebbi_32x32_83
+  - first:
+      213: 6773974952990997422
+    second: Sebbi_32x32_84
+  - first:
+      213: -8152543237074579879
+    second: Sebbi_32x32_85
+  - first:
+      213: 466962286948420496
+    second: Sebbi_32x32_86
+  - first:
+      213: -3367124127082973055
+    second: Sebbi_32x32_87
+  - first:
+      213: 2973065510336464878
+    second: Sebbi_32x32_88
+  - first:
+      213: -6596875782807511556
+    second: Sebbi_32x32_89
+  - first:
+      213: 7615947780812695318
+    second: Sebbi_32x32_90
+  - first:
+      213: -7618844049363420187
+    second: Sebbi_32x32_91
+  - first:
+      213: -6685491035633169132
+    second: Sebbi_32x32_92
+  - first:
+      213: -3361312475100060621
+    second: Sebbi_32x32_93
+  - first:
+      213: -8199937036726120880
+    second: Sebbi_32x32_94
+  - first:
+      213: 1207261734126303782
+    second: Sebbi_32x32_95
+  - first:
+      213: -7474514566305913808
+    second: Sebbi_32x32_96
+  - first:
+      213: -5711932703593639719
+    second: Sebbi_32x32_97
+  - first:
+      213: -4453839775288135222
+    second: Sebbi_32x32_98
+  - first:
+      213: -5472689439243177127
+    second: Sebbi_32x32_99
+  - first:
+      213: -1508186185988461332
+    second: Sebbi_32x32_100
+  - first:
+      213: -5532306326339956042
+    second: Sebbi_32x32_101
+  - first:
+      213: -1361752810383543
+    second: Sebbi_32x32_102
+  - first:
+      213: -4249830828240604211
+    second: Sebbi_32x32_103
+  - first:
+      213: -7818289788399090699
+    second: Sebbi_32x32_104
+  - first:
+      213: -1602616294600155386
+    second: Sebbi_32x32_105
+  - first:
+      213: -4917314776353712768
+    second: Sebbi_32x32_106
+  - first:
+      213: 8553824652745091313
+    second: Sebbi_32x32_107
+  - first:
+      213: -4080611511079970798
+    second: Sebbi_32x32_108
+  - first:
+      213: -5966549075525732876
+    second: Sebbi_32x32_109
+  - first:
+      213: 113211596083612876
+    second: Sebbi_32x32_110
+  - first:
+      213: 9015457592918836829
+    second: Sebbi_32x32_111
+  - first:
+      213: -5518456016635440065
+    second: Sebbi_32x32_112
+  - first:
+      213: -3812892956295983892
+    second: Sebbi_32x32_113
+  - first:
+      213: -5968255449106491144
+    second: Sebbi_32x32_114
+  - first:
+      213: -2120531029191730661
+    second: Sebbi_32x32_115
+  - first:
+      213: 1249484108547524937
+    second: Sebbi_32x32_116
+  - first:
+      213: -1314109372783601932
+    second: Sebbi_32x32_117
+  - first:
+      213: -809638933056778583
+    second: Sebbi_32x32_118
+  - first:
+      213: 3281684471048937543
+    second: Sebbi_32x32_119
+  - first:
+      213: 1341907163345993020
+    second: Sebbi_32x32_120
+  - first:
+      213: -2693041507754108861
+    second: Sebbi_32x32_121
+  - first:
+      213: -2097067055470467228
+    second: Sebbi_32x32_122
+  - first:
+      213: -4002798171601043550
+    second: Sebbi_32x32_123
+  - first:
+      213: 7372579346457131165
+    second: Sebbi_32x32_124
+  - first:
+      213: 4629701673646411875
+    second: Sebbi_32x32_125
+  - first:
+      213: 6207788555701976400
+    second: Sebbi_32x32_126
+  - first:
+      213: -8221466352053061885
+    second: Sebbi_32x32_127
+  - first:
+      213: -72486916341891682
+    second: Sebbi_32x32_128
+  - first:
+      213: -6656221665575130230
+    second: Sebbi_32x32_129
+  - first:
+      213: -3930255992564274097
+    second: Sebbi_32x32_130
+  - first:
+      213: 8041542611530445580
+    second: Sebbi_32x32_131
+  - first:
+      213: -2924225088805114900
+    second: Sebbi_32x32_132
+  - first:
+      213: -5833578300173318285
+    second: Sebbi_32x32_133
+  - first:
+      213: -3491576053495977617
+    second: Sebbi_32x32_134
+  - first:
+      213: 4313681626892909432
+    second: Sebbi_32x32_135
+  - first:
+      213: -8254413842933146080
+    second: Sebbi_32x32_136
+  - first:
+      213: -5881752555985644196
+    second: Sebbi_32x32_137
+  - first:
+      213: -829959471289035467
+    second: Sebbi_32x32_138
+  - first:
+      213: 2189713265557539209
+    second: Sebbi_32x32_139
+  - first:
+      213: -7349029042963551737
+    second: Sebbi_32x32_140
+  - first:
+      213: -8291897220642554780
+    second: Sebbi_32x32_141
+  - first:
+      213: 2195531172044967481
+    second: Sebbi_32x32_142
+  - first:
+      213: 8170952359332368172
+    second: Sebbi_32x32_143
+  - first:
+      213: 6023104663068496822
+    second: Sebbi_32x32_144
+  - first:
+      213: 8394375250210038221
+    second: Sebbi_32x32_145
+  - first:
+      213: -282555950052259409
+    second: Sebbi_32x32_146
+  - first:
+      213: 6374043258865513037
+    second: Sebbi_32x32_147
+  - first:
+      213: 4633812637218619256
+    second: Sebbi_32x32_148
+  - first:
+      213: -7613274679295985431
+    second: Sebbi_32x32_149
+  - first:
+      213: -2574946410958872394
+    second: Sebbi_32x32_150
+  - first:
+      213: -2280694171758774438
+    second: Sebbi_32x32_151
+  - first:
+      213: 5110369041364986471
+    second: Sebbi_32x32_152
+  - first:
+      213: 2574911683087589365
+    second: Sebbi_32x32_153
+  - first:
+      213: 5388757390134618144
+    second: Sebbi_32x32_154
+  - first:
+      213: 8768128125751540895
+    second: Sebbi_32x32_155
+  - first:
+      213: 4892480167925792310
+    second: Sebbi_32x32_156
+  - first:
+      213: 4793436889627388531
+    second: Sebbi_32x32_157
+  - first:
+      213: 9119806170936791141
+    second: Sebbi_32x32_158
+  - first:
+      213: 5588618216315603390
+    second: Sebbi_32x32_159
+  - first:
+      213: -8602040575481368300
+    second: Sebbi_32x32_160
+  - first:
+      213: -5940510674848578769
+    second: Sebbi_32x32_161
+  - first:
+      213: 8822327072094180716
+    second: Sebbi_32x32_162
+  - first:
+      213: 6032631243854318839
+    second: Sebbi_32x32_163
+  - first:
+      213: 8581864777951526635
+    second: Sebbi_32x32_164
+  - first:
+      213: -8332844280909256379
+    second: Sebbi_32x32_165
+  - first:
+      213: 7180156084348169085
+    second: Sebbi_32x32_166
+  - first:
+      213: 3531568302227175943
+    second: Sebbi_32x32_167
+  - first:
+      213: -5516135923059843608
+    second: Sebbi_32x32_168
+  - first:
+      213: 6182100806017216051
+    second: Sebbi_32x32_169
+  - first:
+      213: 3849759750240244992
+    second: Sebbi_32x32_170
+  - first:
+      213: 33407436349978706
+    second: Sebbi_32x32_171
+  - first:
+      213: 4821019279541397244
+    second: Sebbi_32x32_172
+  - first:
+      213: -7292105067823352383
+    second: Sebbi_32x32_173
+  - first:
+      213: -976531297673412081
+    second: Sebbi_32x32_174
+  - first:
+      213: 3703169595585712639
+    second: Sebbi_32x32_175
+  - first:
+      213: 4875607077771223080
+    second: Sebbi_32x32_176
+  - first:
+      213: -7840522433164792092
+    second: Sebbi_32x32_177
+  - first:
+      213: 6851383213178419985
+    second: Sebbi_32x32_178
+  - first:
+      213: -855950413587926368
+    second: Sebbi_32x32_179
+  - first:
+      213: 13772769603878217
+    second: Sebbi_32x32_180
+  - first:
+      213: 3479200118144884030
+    second: Sebbi_32x32_181
+  - first:
+      213: 8128277134877061526
+    second: Sebbi_32x32_182
+  - first:
+      213: 9027986606955985905
+    second: Sebbi_32x32_183
+  - first:
+      213: -8223949599808097836
+    second: Sebbi_32x32_184
+  - first:
+      213: 7058102826339499109
+    second: Sebbi_32x32_185
+  - first:
+      213: -7373598377523399550
+    second: Sebbi_32x32_186
+  - first:
+      213: -1170366552331521479
+    second: Sebbi_32x32_187
+  - first:
+      213: -5114560893815216958
+    second: Sebbi_32x32_188
+  - first:
+      213: -3813730951804642003
+    second: Sebbi_32x32_189
+  - first:
+      213: -4134730953616473587
+    second: Sebbi_32x32_190
+  - first:
+      213: 357734877646240013
+    second: Sebbi_32x32_191
+  - first:
+      213: 8942184345281196926
+    second: Sebbi_32x32_192
+  - first:
+      213: 2124285477862959584
+    second: Sebbi_32x32_193
+  - first:
+      213: -7978535479768146040
+    second: Sebbi_32x32_194
+  - first:
+      213: -4789386694937511553
+    second: Sebbi_32x32_195
+  - first:
+      213: 6506777066112473867
+    second: Sebbi_32x32_196
+  - first:
+      213: -8175178317605953986
+    second: Sebbi_32x32_197
+  - first:
+      213: -515769396965547844
+    second: Sebbi_32x32_198
+  - first:
+      213: 5558320641640242815
+    second: Sebbi_32x32_199
+  - first:
+      213: -1579795443535549972
+    second: Sebbi_32x32_200
+  - first:
+      213: 530204220865880176
+    second: Sebbi_32x32_201
+  - first:
+      213: -9206782071590122135
+    second: Sebbi_32x32_202
+  - first:
+      213: 2344842950136471170
+    second: Sebbi_32x32_203
+  - first:
+      213: -8896651674300689449
+    second: Sebbi_32x32_204
+  - first:
+      213: 6655587255791070720
+    second: Sebbi_32x32_205
+  - first:
+      213: -2128756729096844408
+    second: Sebbi_32x32_206
+  - first:
+      213: -4554318333705379281
+    second: Sebbi_32x32_207
+  - first:
+      213: -3180986549455563622
+    second: Sebbi_32x32_208
+  - first:
+      213: -7206689865507378104
+    second: Sebbi_32x32_209
+  - first:
+      213: -9000463952147107459
+    second: Sebbi_32x32_210
+  - first:
+      213: -2190281880767453655
+    second: Sebbi_32x32_211
+  - first:
+      213: 1265251117011930967
+    second: Sebbi_32x32_212
+  - first:
+      213: -5074283734216880140
+    second: Sebbi_32x32_213
+  - first:
+      213: 1458668226534889761
+    second: Sebbi_32x32_214
+  - first:
+      213: -5427855229082792920
+    second: Sebbi_32x32_215
+  - first:
+      213: 9175773024764158290
+    second: Sebbi_32x32_216
+  - first:
+      213: -1625489510779518037
+    second: Sebbi_32x32_217
+  - first:
+      213: 7446863486049122858
+    second: Sebbi_32x32_218
+  - first:
+      213: 2174655780278725069
+    second: Sebbi_32x32_219
+  - first:
+      213: -7483441826844399665
+    second: Sebbi_32x32_220
+  - first:
+      213: 5128057675276106912
+    second: Sebbi_32x32_221
+  - first:
+      213: -1060291958089718262
+    second: Sebbi_32x32_222
+  - first:
+      213: 6174212719650847435
+    second: Sebbi_32x32_223
+  - first:
+      213: -4139558487069809804
+    second: Sebbi_32x32_224
+  - first:
+      213: 5925759490296033166
+    second: Sebbi_32x32_225
+  - first:
+      213: 6160410265023398430
+    second: Sebbi_32x32_226
+  - first:
+      213: -4279236757233267046
+    second: Sebbi_32x32_227
+  - first:
+      213: 7602138253016928514
+    second: Sebbi_32x32_228
+  - first:
+      213: -5900847422831288368
+    second: Sebbi_32x32_229
+  - first:
+      213: 4851749131974735829
+    second: Sebbi_32x32_230
+  - first:
+      213: -1926696500359052168
+    second: Sebbi_32x32_231
+  - first:
+      213: 462611928885151477
+    second: Sebbi_32x32_232
+  - first:
+      213: -8409114220162140541
+    second: Sebbi_32x32_233
+  - first:
+      213: 3045470207309502594
+    second: Sebbi_32x32_234
+  - first:
+      213: -8984379150578490947
+    second: Sebbi_32x32_235
+  - first:
+      213: -6022778037095129332
+    second: Sebbi_32x32_236
+  - first:
+      213: -3408692848236361597
+    second: Sebbi_32x32_237
+  - first:
+      213: -2561239696136428459
+    second: Sebbi_32x32_238
+  - first:
+      213: -154465168344592396
+    second: Sebbi_32x32_239
+  - first:
+      213: 7937053907683107233
+    second: Sebbi_32x32_240
+  - first:
+      213: -6896014056975227883
+    second: Sebbi_32x32_241
+  - first:
+      213: 8381334796682413502
+    second: Sebbi_32x32_242
+  - first:
+      213: -3076859855895833678
+    second: Sebbi_32x32_243
+  - first:
+      213: 3367469749712950776
+    second: Sebbi_32x32_244
+  - first:
+      213: -9028589050010027854
+    second: Sebbi_32x32_245
+  - first:
+      213: 6511959195732015722
+    second: Sebbi_32x32_246
+  - first:
+      213: -1274225553811756804
+    second: Sebbi_32x32_247
+  - first:
+      213: 8168508284540971079
+    second: Sebbi_32x32_248
+  - first:
+      213: -1191529136959256504
+    second: Sebbi_32x32_249
+  - first:
+      213: 8035088415715940574
+    second: Sebbi_32x32_250
+  - first:
+      213: 2365485882395553629
+    second: Sebbi_32x32_251
+  - first:
+      213: 3593198395221884793
+    second: Sebbi_32x32_252
+  - first:
+      213: -2095622877584105982
+    second: Sebbi_32x32_253
+  - first:
+      213: 6510752563578079203
+    second: Sebbi_32x32_254
+  - first:
+      213: -2485326376047341246
+    second: Sebbi_32x32_255
+  - first:
+      213: -2438923885740963627
+    second: Sebbi_32x32_256
+  - first:
+      213: -8526689658918835890
+    second: Sebbi_32x32_257
+  - first:
+      213: 6760062748003318846
+    second: Sebbi_32x32_258
+  - first:
+      213: 1443574492510614005
+    second: Sebbi_32x32_259
+  - first:
+      213: 532809550883974154
+    second: Sebbi_32x32_260
+  - first:
+      213: -8614386144848934900
+    second: Sebbi_32x32_261
+  - first:
+      213: -9136948344987488371
+    second: Sebbi_32x32_262
+  - first:
+      213: 2954138629305987749
+    second: Sebbi_32x32_263
+  - first:
+      213: 4720420141988967562
+    second: Sebbi_32x32_264
+  - first:
+      213: -6623887363381744331
+    second: Sebbi_32x32_265
+  - first:
+      213: 135093054244385034
+    second: Sebbi_32x32_266
+  - first:
+      213: -101962403406209346
+    second: Sebbi_32x32_267
+  - first:
+      213: 2743774808482862203
+    second: Sebbi_32x32_268
+  - first:
+      213: -6127623090521437909
+    second: Sebbi_32x32_269
+  - first:
+      213: -7102966080880420771
+    second: Sebbi_32x32_270
+  - first:
+      213: 276639338860408570
+    second: Sebbi_32x32_271
+  - first:
+      213: 3503649326100381856
+    second: Sebbi_32x32_272
+  - first:
+      213: 5189351815203150753
+    second: Sebbi_32x32_273
+  - first:
+      213: -5856212907500710033
+    second: Sebbi_32x32_274
+  - first:
+      213: 8967509736213825338
+    second: Sebbi_32x32_275
+  - first:
+      213: 1695231905432355845
+    second: Sebbi_32x32_276
+  - first:
+      213: -7999303203266498426
+    second: Sebbi_32x32_277
+  - first:
+      213: -3855244827095613321
+    second: Sebbi_32x32_278
+  - first:
+      213: -478215760080653788
+    second: Sebbi_32x32_279
+  - first:
+      213: 6587976219351087472
+    second: Sebbi_32x32_280
+  - first:
+      213: -2622223916735774576
+    second: Sebbi_32x32_281
+  - first:
+      213: -4930795664623478987
+    second: Sebbi_32x32_282
+  - first:
+      213: 6495914428793038630
+    second: Sebbi_32x32_283
+  - first:
+      213: -1936142544842534572
+    second: Sebbi_32x32_284
+  - first:
+      213: 1102598904293567614
+    second: Sebbi_32x32_285
+  - first:
+      213: -6974088403642193634
+    second: Sebbi_32x32_286
+  - first:
+      213: 3347690121675963142
+    second: Sebbi_32x32_287
+  - first:
+      213: 6745410594335804554
+    second: Sebbi_32x32_288
+  - first:
+      213: -4182514577669003139
+    second: Sebbi_32x32_289
+  - first:
+      213: 1684177749802767546
+    second: Sebbi_32x32_290
+  - first:
+      213: -8149932395328759917
+    second: Sebbi_32x32_291
+  - first:
+      213: 6783841551272375838
+    second: Sebbi_32x32_292
+  - first:
+      213: -2372832392825382868
+    second: Sebbi_32x32_293
+  - first:
+      213: -5640728087654171206
+    second: Sebbi_32x32_294
+  - first:
+      213: -1629801460524449238
+    second: Sebbi_32x32_295
+  - first:
+      213: 8132175961387529873
+    second: Sebbi_32x32_296
+  - first:
+      213: -8504494715194193692
+    second: Sebbi_32x32_297
+  - first:
+      213: 5676308378850735735
+    second: Sebbi_32x32_298
+  - first:
+      213: -69311884475356434
+    second: Sebbi_32x32_299
+  - first:
+      213: 6290392492492288668
+    second: Sebbi_32x32_300
+  - first:
+      213: 5435064366470151868
+    second: Sebbi_32x32_301
+  - first:
+      213: -2473376473988109690
+    second: Sebbi_32x32_302
+  - first:
+      213: 972879414980403195
+    second: Sebbi_32x32_303
+  - first:
+      213: -7933813840549619747
+    second: Sebbi_32x32_304
+  - first:
+      213: -6411161086459257197
+    second: Sebbi_32x32_305
+  - first:
+      213: 2729948800758102596
+    second: Sebbi_32x32_306
+  - first:
+      213: 4415105675344864059
+    second: Sebbi_32x32_307
+  - first:
+      213: -1810198447700381012
+    second: Sebbi_32x32_308
+  - first:
+      213: 3244846114408251775
+    second: Sebbi_32x32_309
+  - first:
+      213: -4428059293694699656
+    second: Sebbi_32x32_310
+  - first:
+      213: 1506601564122121386
+    second: Sebbi_32x32_311
+  - first:
+      213: -6577704623125220930
+    second: Sebbi_32x32_312
+  - first:
+      213: -3634116212925129362
+    second: Sebbi_32x32_313
+  - first:
+      213: -8442012312742009429
+    second: Sebbi_32x32_314
+  - first:
+      213: -3321961424849868799
+    second: Sebbi_32x32_315
+  - first:
+      213: 5500445525273879259
+    second: Sebbi_32x32_316
+  - first:
+      213: 8852730976812406696
+    second: Sebbi_32x32_317
+  - first:
+      213: -8838677732805838800
+    second: Sebbi_32x32_318
+  - first:
+      213: 6144105560343531408
+    second: Sebbi_32x32_319
+  - first:
+      213: -3374080490017616805
+    second: Sebbi_32x32_320
+  - first:
+      213: 6036611828321321046
+    second: Sebbi_32x32_321
+  - first:
+      213: 4566153264716719990
+    second: Sebbi_32x32_322
+  - first:
+      213: -7232433129539750649
+    second: Sebbi_32x32_323
+  - first:
+      213: -4680801974601007267
+    second: Sebbi_32x32_324
+  - first:
+      213: 7543142944178138550
+    second: Sebbi_32x32_325
+  - first:
+      213: -5922184859380231407
+    second: Sebbi_32x32_326
+  - first:
+      213: -2145296793764981142
+    second: Sebbi_32x32_327
+  - first:
+      213: -6519631407180203847
+    second: Sebbi_32x32_328
+  - first:
+      213: 139762166558373183
+    second: Sebbi_32x32_329
+  - first:
+      213: 5773692335818486969
+    second: Sebbi_32x32_330
+  - first:
+      213: 8609265738326640338
+    second: Sebbi_32x32_331
+  - first:
+      213: 1805494946947278320
+    second: Sebbi_32x32_332
+  - first:
+      213: 4039324496895130780
+    second: Sebbi_32x32_333
+  - first:
+      213: -1822981950504161410
+    second: Sebbi_32x32_334
+  - first:
+      213: -8500132590324511756
+    second: Sebbi_32x32_335
+  - first:
+      213: -3161202506662386002
+    second: Sebbi_32x32_336
+  - first:
+      213: 705952772356383972
+    second: Sebbi_32x32_337
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sebbi_32x32_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8278e3a782b0ba2a0800000000000000
+      internalID: -6725269350070188248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 448
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78abedb9409bf8ab0800000000000000
+      internalID: -5003577231539258745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f120b255f45284550800000000000000
+      internalID: 6145202714208567839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 448
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2860b4d8c4ba1c0800000000000000
+      internalID: -4491412033639120211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21c2116fc7158410800000000000000
+      internalID: 1478614232115364141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 384
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c141f78fa0c22fe0800000000000000
+      internalID: -1215197089304067646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39e1283503bcee70800000000000000
+      internalID: 9145881778280589627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e21fccda180de70800000000000000
+      internalID: 9137946227402419754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365ea8cec5ec126d0800000000000000
+      internalID: -3016903376860682909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_9
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 384
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3074100dc1beefa40800000000000000
+      internalID: 5404015111872530179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5137ed663d669fe0800000000000000
+      internalID: -1182637771598646947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_11
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 384
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8a83111f0a0a360800000000000000
+      internalID: 7178914763265059022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_12
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 157471beff0485330800000000000000
+      internalID: 3699778561789871953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_13
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 384
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a578d8ad4f7d6a50800000000000000
+      internalID: 6516004207396943273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_14
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5e3db0df91f0cb0800000000000000
+      internalID: -4895665695312583214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_15
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 384
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077ebf5e2b2f265a0800000000000000
+      internalID: -6529389659557206160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_16
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8b4407e14afca30800000000000000
+      internalID: 4237786225018452195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_17
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 384
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04856fdef775d2b60800000000000000
+      internalID: 7722925142975076416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_18
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 384
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e760b27c86918bde0800000000000000
+      internalID: -1317274953197091202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_19
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 384
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c096145eb205d30e0800000000000000
+      internalID: -2288584886174258932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_20
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b281afe87338610800000000000000
+      internalID: 1622201378004282167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_21
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 384
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e4cd3417a452570800000000000000
+      internalID: 8441234926906134035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_22
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 384
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0a16bbd2bb47f90800000000000000
+      internalID: -6956729719288913717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_23
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 384
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9977260b44311250800000000000000
+      internalID: 5913565282544613789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_24
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0152ec320d82cf50800000000000000
+      internalID: 6900232619835937037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_25
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 384
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70acd24ac3deb2740800000000000000
+      internalID: 5128453445399726599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_26
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 384
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec68a7aeaa89e6800800000000000000
+      internalID: 607590859587356366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_27
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 384
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad868b8fe0b125840800000000000000
+      internalID: 5211257469937412314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4f5797e9de17280800000000000000
+      internalID: -9047188911512226617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_29
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 320
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eac62427f288be90800000000000000
+      internalID: -7009708822027121947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_30
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69350216634f71850800000000000000
+      internalID: 6347810714196923286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 320
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33f3585ff2c77740800000000000000
+      internalID: 5149799100875797308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5604ffad6e41d1e90800000000000000
+      internalID: -7053458459643133851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_33
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4269ba499a4336340800000000000000
+      internalID: 4855782726183917092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_34
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d922223769eb2b170800000000000000
+      internalID: 8192820225526342301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_35
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 320
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66598222abf99b00800000000000000
+      internalID: 835975879636637294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_36
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3c6a53cd5d33890800000000000000
+      internalID: -7479399414362618895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_37
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 320
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef4b1c836902dd60800000000000000
+      internalID: 7913397818400395247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_38
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93af67f515970b1b0800000000000000
+      internalID: -5642876942694286791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_39
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 320
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed90dc3e5c4fd54e0800000000000000
+      internalID: -1991166329460291106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_40
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e404628e922e170c0800000000000000
+      internalID: -4579630676442726322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_41
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 320
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c2f8d083a8255a10800000000000000
+      internalID: 1897467500713013955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_42
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 320
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0638450bcf6f0b650800000000000000
+      internalID: 6246764248313398112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_43
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 320
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7d7ef7e29f6f700800000000000000
+      internalID: 573919980646029296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_44
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 320
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c03ce5f5d33a088f0800000000000000
+      internalID: -540252471296081140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_45
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 320
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d046d01f7402520800000000000000
+      internalID: 2675217279295425809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_46
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 320
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597a6c6748f6326d0800000000000000
+      internalID: -3016444710689003627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_47
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 320
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 842ea6ef83915d3c0800000000000000
+      internalID: -4335531333696953784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_48
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 320
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6965b5a96c59306f0800000000000000
+      internalID: -719566835223406954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_49
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 320
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a81ea418b23d7210800000000000000
+      internalID: 1332276830973860003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_50
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 320
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03780210a8e222830800000000000000
+      internalID: 4044846585591400240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_51
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 320
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 526f8c8445a013a30800000000000000
+      internalID: 4193144085173302821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4362a6159ecdf1940800000000000000
+      internalID: 5269172983698171444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_53
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae11365e7f381bf00800000000000000
+      internalID: 1130830082175341034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_54
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e42dc45d51999c10800000000000000
+      internalID: 2060838134539429095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_55
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cfbffee6cfc76f20800000000000000
+      internalID: 3415927295704022983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_56
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c3be5500fe57090800000000000000
+      internalID: -8037255175252263912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_57
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 256
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f91d324ff39a570800000000000000
+      internalID: 8478378091307179908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_58
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a431ddc25883b30800000000000000
+      internalID: 4267307074667629097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_59
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 256
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004eb833f6c6c9e10800000000000000
+      internalID: 2205757142366675968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_60
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1d142218d9b11e0800000000000000
+      internalID: -2226012412853497413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_61
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 256
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413740217bd0c98c0800000000000000
+      internalID: -3991300089824644332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_62
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c8e6ad26cb8b120800000000000000
+      internalID: 2429899131723877467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_63
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 256
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e8d5296ff22dd090800000000000000
+      internalID: -8008206082018780954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_64
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac5cb24c197c28b0800000000000000
+      internalID: -5175628709469856593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_65
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 256
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f822e2211c76c20800000000000000
+      internalID: 3199738344097615645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_66
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acbd0a7d687a8c2b0800000000000000
+      internalID: -5564013142031148086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_67
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 256
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0cb4ce1b1329dc00800000000000000
+      internalID: 925809797788646412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_68
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f6213831e0b81b80800000000000000
+      internalID: -8423788621639637261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_69
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 256
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951efda84a964a320800000000000000
+      internalID: 2568293842933506393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_70
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 256
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea19811441b02ea90800000000000000
+      internalID: -7286249065512660562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_71
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 256
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c2845e5aa07b000800000000000000
+      internalID: 51521628370644003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_72
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01e9bb5605888ad0800000000000000
+      internalID: -2699761714253405941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_73
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 256
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60600bb3b3dad7a00800000000000000
+      internalID: 755950782384178694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_74
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 256
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df38ee098afb0e980800000000000000
+      internalID: -8511592565023276035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_75
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 256
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b192f1961a5fee020800000000000000
+      internalID: 2373104127273019675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd76f7d734e75330800000000000000
+      internalID: 3699676547405741504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_77
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab58df494e1dfa40800000000000000
+      internalID: 5403508428135488420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_78
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6858005d9357a7880800000000000000
+      internalID: -8612442446145485434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_79
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e528b21926c0a30800000000000000
+      internalID: 4182826529560092188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_80
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471b749bf3ba2b3a0800000000000000
+      internalID: -6651065409493028492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_81
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 578583e98c602dd20800000000000000
+      internalID: 3301708935533713525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_82
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26c9a2c8f71b6910800000000000000
+      internalID: 1831584030641473066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_83
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f1782a9db6845b0800000000000000
+      internalID: -5383934772042588359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_84
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eabfb66645ef10e50800000000000000
+      internalID: 6773974952990997422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_85
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e0822be195cde80800000000000000
+      internalID: -8152543237074579879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_86
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b8015d9bbfa7600800000000000000
+      internalID: 466962286948420496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_87
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 192
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188729a32729541d0800000000000000
+      internalID: -3367124127082973055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_88
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee702956453724920800000000000000
+      internalID: 2973065510336464878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_89
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 192
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd91626d603374a0800000000000000
+      internalID: -6596875782807511556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_90
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617e347d72841b960800000000000000
+      internalID: 7615947780812695318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_91
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 192
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb389614bd644690800000000000000
+      internalID: -7618844049363420187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_92
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41dc608035d5833a0800000000000000
+      internalID: -6685491035633169132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_93
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 192
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3346296ec183a51d0800000000000000
+      internalID: -3361312475100060621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_94
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ece51d5b8f33e80800000000000000
+      internalID: -8199937036726120880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_95
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 192
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a358d962e01c010800000000000000
+      internalID: 1207261734126303782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_96
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 192
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0346ad68a90354890800000000000000
+      internalID: -7474514566305913808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_97
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 192
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d05d5d18732bb0b0800000000000000
+      internalID: -5711932703593639719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_98
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 192
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1f1736258c032c0800000000000000
+      internalID: -4453839775288135222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_99
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 192
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953f0e753f91d04b0800000000000000
+      internalID: -5472689439243177127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceca10197a8d11be0800000000000000
+      internalID: -1508186185988461332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_101
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b25cd525bc4933b0800000000000000
+      internalID: -5532306326339956042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_102
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94717773e792bfff0800000000000000
+      internalID: -1361752810383543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_103
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3f637d0619505c0800000000000000
+      internalID: -4249830828240604211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_104
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3886b4cdadf7390800000000000000
+      internalID: -7818289788399090699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_105
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60fda1998fc52c9e0800000000000000
+      internalID: -1602616294600155386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_106
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08558a2934032cbb0800000000000000
+      internalID: -4917314776353712768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_107
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8a9d9933a45b670800000000000000
+      internalID: 8553824652745091313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_108
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21855bf5371ce57c0800000000000000
+      internalID: -4080611511079970798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_109
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f57a5a5a3f823da0800000000000000
+      internalID: -5966549075525732876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_110
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cccc409c855329100800000000000000
+      internalID: 113211596083612876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_111
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 128
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5686813ae65d1d70800000000000000
+      internalID: 9015457592918836829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34d3dbad718a63b0800000000000000
+      internalID: -5518456016635440065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_113
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec836dce02e51bc0800000000000000
+      internalID: -3812892956295983892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_114
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8d73b4a4f7c2da0800000000000000
+      internalID: -5968255449106491144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_115
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a55d5934c5292e0800000000000000
+      internalID: -2120531029191730661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_116
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949887a3d2f075110800000000000000
+      internalID: 1249484108547524937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_117
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f6d837ec7853cde0800000000000000
+      internalID: -1314109372783601932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_118
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae03d61ea593c4f0800000000000000
+      internalID: -809638933056778583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_119
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740a9c9a3a2ea8d20800000000000000
+      internalID: 3281684471048937543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_120
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d3ac094796f9210800000000000000
+      internalID: 1341907163345993020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_121
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3481fec540560aad0800000000000000
+      internalID: -2693041507754108861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_122
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4672280bf98b5e2e0800000000000000
+      internalID: -2097067055470467228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_123
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aff22a45443378c0800000000000000
+      internalID: -4002798171601043550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_124
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9875ff9ad9a05660800000000000000
+      internalID: 7372579346457131165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_125
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360d9b99421004040800000000000000
+      internalID: 4629701673646411875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_126
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05df9571dce762650800000000000000
+      internalID: 6207788555701976400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_127
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 307fc0979eb77ed80800000000000000
+      internalID: -8221466352053061885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_128
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9df39c98897efef0800000000000000
+      internalID: -72486916341891682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_129
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ba22d49a950a3a0800000000000000
+      internalID: -6656221665575130230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_130
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c2bd68ffce479c0800000000000000
+      internalID: -3930255992564274097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_131
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c037076366c499f60800000000000000
+      internalID: 8041542611530445580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_132
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb6c7266c01b67d0800000000000000
+      internalID: -2924225088805114900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_133
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3770eb09177fa0fa0800000000000000
+      internalID: -5833578300173318285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_134
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69ac19141e6b8fc0800000000000000
+      internalID: -3491576053495977617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_135
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87bb415b5964ddb30800000000000000
+      internalID: 4313681626892909432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_136
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e17e6f75e627d80800000000000000
+      internalID: -8254413842933146080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_137
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c55dab39631df5ea0800000000000000
+      internalID: -5881752555985644196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_138
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53598d712446b74f0800000000000000
+      internalID: -829959471289035467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_139
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98984890d9c636e10800000000000000
+      internalID: 2189713265557539209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_140
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ae022b501030a90800000000000000
+      internalID: -7349029042963551737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_141
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c3d8109634dec80800000000000000
+      internalID: -8291897220642554780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_142
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e8903f7f7187e10800000000000000
+      internalID: 2195531172044967481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_143
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f45a611ed056170800000000000000
+      internalID: 8170952359332368172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_144
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3523f77cd569350800000000000000
+      internalID: 6023104663068496822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_145
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1a91490dfce7470800000000000000
+      internalID: 8394375250210038221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_146
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa946f74cd8241cf0800000000000000
+      internalID: -282555950052259409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_147
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d42f6a3a296257850800000000000000
+      internalID: 6374043258865513037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_148
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87fb125ea0c9e4040800000000000000
+      internalID: 4633812637218619256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_149
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8361b1407385690800000000000000
+      internalID: -7613274679295985431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_150
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b02123c1e3f34cd0800000000000000
+      internalID: -2574946410958872394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_151
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57b3030cb85950e0800000000000000
+      internalID: -2280694171758774438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_152
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76aa6b5319dabe640800000000000000
+      internalID: 5110369041364986471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_153
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff5076888cebb320800000000000000
+      internalID: 2574911683087589365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_154
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0282cb3ab46b8ca40800000000000000
+      internalID: 5388757390134618144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_155
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c38882316aea970800000000000000
+      internalID: 8768128125751540895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_156
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e3cdf8ac495e340800000000000000
+      internalID: 4892480167925792310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_157
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a6e735475b58240800000000000000
+      internalID: 4793436889627388531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_158
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5605a17c46f009e70800000000000000
+      internalID: 9119806170936791141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_159
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9c4c078a2ce8d40800000000000000
+      internalID: 5588618216315603390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_160
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411bfe21ca96f9880800000000000000
+      internalID: -8602040575481368300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_161
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f230c31f3011f8da0800000000000000
+      internalID: -5940510674848578769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_162
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c655c78bab33f6a70800000000000000
+      internalID: 8822327072094180716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_163
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc0cde672638b350800000000000000
+      internalID: 6032631243854318839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_164
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beebc300c88e81770800000000000000
+      internalID: 8581864777951526635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_165
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54922cb964acb5c80800000000000000
+      internalID: -8332844280909256379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_166
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7bae67aae905a360800000000000000
+      internalID: 7180156084348169085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_167
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ab74ae8a6a20130800000000000000
+      internalID: 3531568302227175943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebbi_32x32_168
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ed1f3d8a9fb273b0800000000000000
+      internalID: -5516135923059843608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
