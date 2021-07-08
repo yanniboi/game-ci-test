@@ -44,7 +44,7 @@ jobs:
       - uses: webbertakken/unity-test-runner@v2
         id: testRunner
         with:
-          githubToken: ${{ secrets._GITHUB_TOKEN }}
+
           testMode: all
 
       # Upload artifacts
@@ -94,6 +94,16 @@ jobs:
           name: Build WebGL
           path: build/WebGL
 
+
+  deployPages:
+    needs: buildWebGL
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          branch: gh-pages
+          folder: build/WebGL
 
 #  buildAllPlatforms:
 #    needs: testRunner
