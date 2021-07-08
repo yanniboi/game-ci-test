@@ -9,145 +9,7 @@ env:
 
 
 jobs:
-  readmeWorkflow:
-    name: Readme Workflow ✨
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Create LFS file list
-        run: git lfs ls-files -l | cut -d' ' -f1 | sort > .lfs-assets-id
-
-      - name: Restore LFS cache
-        uses: actions/cache@v2
-        id: lfs-cache
-        with:
-          path: .git/lfs
-          key: ${{ runner.os }}-lfs-${{ hashFiles('.lfs-assets-id') }}
-
-      - name: Git LFS Pull
-        run: |
-          git lfs pull
-          git add .
-          git reset --hard
-      - name: Restore Library cache
-        uses: actions/cache@v2
-        with:
-          path: Library
-          key: Library-test-project-WebGL
-
-      # Test
-      - name: Run tests
-        uses: webbertakken/unity-test-runner@v2
-        with:
-          githubToken: ${{ secrets.GITHUB_TOKEN }}
-
-      # Build
-      - name: Build project
-        uses: webbertakken/unity-builder@v2
-        with:
-          targetPlatform: WebGL
-
-      # Output
-      - uses: actions/upload-artifact@v2
-        with:
-          name: Build
-          path: build
-
-  #
-  # End of readme workflow.
-  #
-  # Below is a test of most combinations, for testing integrity.
-  #
-
-
-  testRunnerInEditMode:
-    name: Test in editmode 📝
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Create LFS file list
-        run: git lfs ls-files -l | cut -d' ' -f1 | sort > .lfs-assets-id
-
-      - name: Restore LFS cache
-        uses: actions/cache@v2
-        id: lfs-cache
-        with:
-          path: .git/lfs
-          key: ${{ runner.os }}-lfs-${{ hashFiles('.lfs-assets-id') }}
-
-      - name: Git LFS Pull
-        run: |
-          git lfs pull
-          git add .
-          git reset --hard
-      - name: Restore Library cache
-        uses: actions/cache@v2
-        with:
-          path: Library
-          key: Library-test-project
-          restore-keys: |
-            Library-test-
-      # Configure test runner
-      - uses: webbertakken/unity-test-runner@v2
-        id: testRunner
-        with:
-          githubToken: ${{ secrets.GITHUB_TOKEN }}
-          testMode: editmode
-
-      # Upload artifact
-      - uses: actions/upload-artifact@v2
-        with:
-          name: Test results (edit mode)
-          path: ${{ steps.testRunner.outputs.artifactsPath }}
-
-  testRunnerInPlayMode:
-    name: Test in playmode 📺
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Create LFS file list
-        run: git lfs ls-files -l | cut -d' ' -f1 | sort > .lfs-assets-id
-
-      - name: Restore LFS cache
-        uses: actions/cache@v2
-        id: lfs-cache
-        with:
-          path: .git/lfs
-          key: ${{ runner.os }}-lfs-${{ hashFiles('.lfs-assets-id') }}
-
-      - name: Git LFS Pull
-        run: |
-          git lfs pull
-          git add .
-          git reset --hard
-      - name: Restore Library cache
-        uses: actions/cache@v2
-        with:
-          path: Library
-          key: Library-test-project-${{ matrix.targetPlatform }}
-          restore-keys: |
-            Library-test-project-
-            Library-
-      # Configure test runner
-      - uses: webbertakken/unity-test-runner@v2
-        id: testRunner
-        with:
-          githubToken: ${{ secrets.GITHUB_TOKEN }}
-          testMode: playmode
-
-      # Upload artifact
-      - uses: actions/upload-artifact@v2
-        with:
-          name: Test results (play mode)
-          path: ${{ steps.testRunner.outputs.artifactsPath }}
-
-  testRunnerInAllModes:
+  testRunner:
     name: Test all modes ✨
     runs-on: ubuntu-latest
     steps:
@@ -174,7 +36,7 @@ jobs:
         uses: actions/cache@v2
         with:
           path: Library
-          key: Library-test-project-${{ matrix.targetPlatform }}
+          key: Library-test-project
           restore-keys: |
             Library-test-project-
             Library-
@@ -182,7 +44,7 @@ jobs:
       - uses: webbertakken/unity-test-runner@v2
         id: testRunner
         with:
-          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          githubToken: ${{ secrets._GITHUB_TOKEN }}
           testMode: all
 
       # Upload artifacts
@@ -191,21 +53,12 @@ jobs:
           name: Test results (all modes)
           path: ${{ steps.testRunner.outputs.artifactsPath }}
 
-  #
-  # Complete advanced workflow
-  #
-
-  buildAndTestForSomePlatforms:
-    name: Build for ${{ matrix.targetPlatform }}
+  buildWebGL:
+    needs: testRunner
+    name: Build for WebGL
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
-      matrix:
-        targetPlatform:
-          - StandaloneOSX # Build a macOS standalone (Intel 64-bit).
-          - StandaloneWindows64 # Build a Windows 64-bit standalone.
-          - StandaloneLinux64 # Build a Linux 64-bit standalone.
-          - WebGL # WebGL.
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -229,22 +82,70 @@ jobs:
         uses: actions/cache@v2
         with:
           path: Library
-          key: Library-buildAndTest-${{ matrix.targetPlatform }}
+          key: Library-buildWebGL
           restore-keys: |
-            Library-buildAndTest-
+            Library-buildWebGL-
             Library-
-      - uses: webbertakken/unity-test-runner@v2
-        id: testRunner
-        with:
-          githubToken: ${{ secrets.GITHUB_TOKEN }}
-      - uses: actions/upload-artifact@v2
-        with:
-          name: Test results (all modes)
-          path: ${{ steps.testRunner.outputs.artifactsPath }}
       - uses: webbertakken/unity-builder@v2
         with:
-          targetPlatform: ${{ matrix.targetPlatform }}
+          targetPlatform: WebGL
       - uses: actions/upload-artifact@v2
         with:
-          name: Build (${{ matrix.targetPlatform }})
-          path: build/${{ matrix.targetPlatform }}
+          name: Build WebGL
+          path: build/WebGL
+
+
+#  buildAllPlatforms:
+#    needs: testRunner
+#    name: Build for ${{ matrix.targetPlatform }}
+#    runs-on: ubuntu-latest
+#    strategy:
+#      fail-fast: false
+#      matrix:
+#        targetPlatform:
+#          - StandaloneOSX # Build a macOS standalone (Intel 64-bit).
+#          - StandaloneWindows64 # Build a Windows 64-bit standalone.
+#          - StandaloneLinux64 # Build a Linux 64-bit standalone.
+#          - WebGL # WebGL.
+#    steps:
+#      - name: Checkout code
+#        uses: actions/checkout@v2
+#
+#      - name: Create LFS file list
+#        run: git lfs ls-files -l | cut -d' ' -f1 | sort > .lfs-assets-id
+#
+#      - name: Restore LFS cache
+#        uses: actions/cache@v2
+#        id: lfs-cache
+#        with:
+#          path: .git/lfs
+#          key: ${{ runner.os }}-lfs-${{ hashFiles('.lfs-assets-id') }}
+#
+#      - name: Git LFS Pull
+#        run: |
+#          git lfs pull
+#          git add .
+#          git reset --hard
+#      - name: Restore Library cache
+#        uses: actions/cache@v2
+#        with:
+#          path: Library
+#          key: Library-buildAndTest-${{ matrix.targetPlatform }}
+#          restore-keys: |
+#            Library-buildAndTest-
+#            Library-
+#      - uses: webbertakken/unity-test-runner@v2
+#        id: testRunner
+#        with:
+#          githubToken: ${{ secrets._GITHUB_TOKEN }}
+#      - uses: actions/upload-artifact@v2
+#        with:
+#          name: Test results (all modes)
+#          path: ${{ steps.testRunner.outputs.artifactsPath }}
+#      - uses: webbertakken/unity-builder@v2
+#        with:
+#          targetPlatform: ${{ matrix.targetPlatform }}
+#      - uses: actions/upload-artifact@v2
+#        with:
+#          name: Build (${{ matrix.targetPlatform }})
+#          path: build/${{ matrix.targetPlatform }}
