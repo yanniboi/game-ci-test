@@ -4,8 +4,6 @@ on:
   pull_request: {}
   push: { branches: [master] }
 
-env:
-  UNITY_LICENSE: ""
 
 jobs:
   readmeWorkflow:
@@ -61,37 +59,6 @@ jobs:
   # Below is a test of most combinations, for testing integrity.
   #
 
-  requestManualActivationFile:
-    name: Request manual activation file 🔑
-    runs-on: ubuntu-latest
-    steps:
-      # Checkout repository
-      - uses: actions/checkout@v2
-
-      # Request manual activation file
-      - uses: webbertakken/unity-request-manual-activation-file@v2
-        id: getManualLicenseFile
-
-      # Upload artifact (Unity_v20XX.X.XXXX.alf)
-      - uses: actions/upload-artifact@v2
-        with:
-          name: Manual Activation File
-          path: ${{ steps.getManualLicenseFile.outputs.filePath }}
-
-#  requestActivation:
-#    name: Request activation ✔
-#    runs-on: ubuntu-latest
-#    steps:
-#      - uses: actions/checkout@v2
-#      - uses: webbertakken/unity-activate@v2
-#
-#  activateAndThenReturnLicense:
-#    name: returnLicense 🎈
-#    runs-on: ubuntu-latest
-#    steps:
-#      - uses: actions/checkout@v2
-#      - uses: webbertakken/unity-activate@v2
-#      - uses: webbertakken/unity-return-license@v2
 
   testRunnerInEditMode:
     name: Test in editmode 📝
