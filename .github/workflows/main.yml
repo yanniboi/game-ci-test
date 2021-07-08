@@ -91,14 +91,22 @@ jobs:
           targetPlatform: WebGL
       - uses: actions/upload-artifact@v2
         with:
-          name: Build WebGL
+          name: build-WebGL
           path: build/WebGL
 
 
   deployPages:
     needs: buildWebGL
+    name: Deploy to Github Pages
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/download-artifact@v2
+        with:
+          name: build-WebGL
+          path: build/WebGL
+      - name: Display structure of downloaded files
+        run: ls -R
+        working-directory: build/WebGL
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
