@@ -104,6 +104,8 @@ jobs:
         with:
           name: build-WebGL
           path: build/WebGL
+      - name: Display structure of root files
+        run: ls -R
       - name: Display structure of downloaded files
         run: ls -R
         working-directory: build/WebGL
