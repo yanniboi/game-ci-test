@@ -4,6 +4,9 @@ on:
   pull_request: {}
   push: { branches: [master] }
 
+env:
+  UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+
 
 jobs:
   readmeWorkflow:
@@ -38,7 +41,7 @@ jobs:
       - name: Run tests
         uses: webbertakken/unity-test-runner@v2
         with:
-          projectPath: test-projects/test-project
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
 
       # Build
       - name: Build project
