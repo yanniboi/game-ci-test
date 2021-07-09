@@ -1,4 +1,4 @@
-name: Actions 😎
+name: Game.CI Actions 😎
 
 on:
   pull_request: {}
@@ -13,7 +13,6 @@ jobs:
     name: Test all modes ✨
     runs-on: ubuntu-latest
     steps:
-      # Checkout repository (required to test local actions)
       - name: Checkout code
         uses: actions/checkout@v2
 
@@ -32,6 +31,7 @@ jobs:
           git lfs pull
           git add .
           git reset --hard
+
       - name: Restore Library cache
         uses: actions/cache@v2
         with:
@@ -40,14 +40,12 @@ jobs:
           restore-keys: |
             Library-test-project-
             Library-
-      # Configure test runner
+
       - uses: webbertakken/unity-test-runner@v2
         id: testRunner
         with:
-
           testMode: all
 
-      # Upload artifacts
       - uses: actions/upload-artifact@v2
         with:
           name: Test results (all modes)
@@ -78,17 +76,20 @@ jobs:
           git lfs pull
           git add .
           git reset --hard
+
       - name: Restore Library cache
         uses: actions/cache@v2
         with:
           path: Library
-          key: Library-buildWebGL
+          key: Library-build-WebGL
           restore-keys: |
-            Library-buildWebGL-
+            Library-build-
             Library-
+
       - uses: webbertakken/unity-builder@v2
         with:
           targetPlatform: WebGL
+
       - uses: actions/upload-artifact@v2
         with:
           name: build-WebGL
@@ -102,70 +103,67 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+
       - uses: actions/download-artifact@v2
         with:
           name: build-WebGL
           path: build
+
       - name: Display structure of root files
         run: ls -R
         working-directory: build/WebGL
+
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
           branch: gh-pages
           folder: build/WebGL
 
-#  buildAllPlatforms:
-#    needs: testRunner
-#    name: Build for ${{ matrix.targetPlatform }}
-#    runs-on: ubuntu-latest
-#    strategy:
-#      fail-fast: false
-#      matrix:
-#        targetPlatform:
-#          - StandaloneOSX # Build a macOS standalone (Intel 64-bit).
-#          - StandaloneWindows64 # Build a Windows 64-bit standalone.
-#          - StandaloneLinux64 # Build a Linux 64-bit standalone.
-#          - WebGL # WebGL.
-#    steps:
-#      - name: Checkout code
-#        uses: actions/checkout@v2
-#
-#      - name: Create LFS file list
-#        run: git lfs ls-files -l | cut -d' ' -f1 | sort > .lfs-assets-id
-#
-#      - name: Restore LFS cache
-#        uses: actions/cache@v2
-#        id: lfs-cache
-#        with:
-#          path: .git/lfs
-#          key: ${{ runner.os }}-lfs-${{ hashFiles('.lfs-assets-id') }}
-#
-#      - name: Git LFS Pull
-#        run: |
-#          git lfs pull
-#          git add .
-#          git reset --hard
-#      - name: Restore Library cache
-#        uses: actions/cache@v2
-#        with:
-#          path: Library
-#          key: Library-buildAndTest-${{ matrix.targetPlatform }}
-#          restore-keys: |
-#            Library-buildAndTest-
-#            Library-
-#      - uses: webbertakken/unity-test-runner@v2
-#        id: testRunner
-#        with:
-#          githubToken: ${{ secrets._GITHUB_TOKEN }}
-#      - uses: actions/upload-artifact@v2
-#        with:
-#          name: Test results (all modes)
-#          path: ${{ steps.testRunner.outputs.artifactsPath }}
-#      - uses: webbertakken/unity-builder@v2
-#        with:
-#          targetPlatform: ${{ matrix.targetPlatform }}
-#      - uses: actions/upload-artifact@v2
-#        with:
-#          name: Build (${{ matrix.targetPlatform }})
-#          path: build/${{ matrix.targetPlatform }}
+  buildAllPlatforms:
+    needs: testRunner
+    name: Build for ${{ matrix.targetPlatform }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        targetPlatform:
+          - StandaloneOSX
+          - StandaloneWindows64
+          - StandaloneLinux64
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Create LFS file list
+        run: git lfs ls-files -l | cut -d' ' -f1 | sort > .lfs-assets-id
+
+      - name: Restore LFS cache
+        uses: actions/cache@v2
+        id: lfs-cache
+        with:
+          path: .git/lfs
+          key: ${{ runner.os }}-lfs-${{ hashFiles('.lfs-assets-id') }}
+
+      - name: Git LFS Pull
+        run: |
+          git lfs pull
+          git add .
+          git reset --hard
+
+      - name: Restore Library cache
+        uses: actions/cache@v2
+        with:
+          path: Library
+          key: Library-build-${{ matrix.targetPlatform }}
+          restore-keys: |
+            Library-build-
+            Library-
+
+      - uses: webbertakken/unity-builder@v2
+        with:
+          targetPlatform: ${{ matrix.targetPlatform }}
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: Build (${{ matrix.targetPlatform }})
+          path: build/${{ matrix.targetPlatform }}
