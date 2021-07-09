@@ -1,5 +1,7 @@
 name: Build Desktop Targets 🪟 🐧 🍎
 
+on: []
+
 env:
   UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
 
