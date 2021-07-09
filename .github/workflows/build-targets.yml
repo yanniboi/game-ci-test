@@ -1,0 +1,59 @@
+name: Build Desktop Targets 🖥️ 🐧 🍎
+
+on: 
+  workflow_dispatch: {}
+  push: { tags: ['*'] }
+
+env:
+  UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+
+jobs:
+  buildAllPlatforms:
+    name: Build for ${{ matrix.targetPlatform }} 🎮
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        # As specified in Unity - https://docs.unity3d.com/ScriptReference/BuildTarget.html
+        targetPlatform:
+          - StandaloneOSX
+          - StandaloneWindows64
+          - StandaloneLinux64
+          - Android
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Create LFS file list
+        run: git lfs ls-files -l | cut -d' ' -f1 | sort > .lfs-assets-id
+
+      - name: Restore LFS cache
+        uses: actions/cache@v2
+        id: lfs-cache
+        with:
+          path: .git/lfs
+          key: ${{ runner.os }}-lfs-${{ hashFiles('.lfs-assets-id') }}
+
+      - name: Git LFS Pull
+        run: |
+          git lfs pull
+          git add .
+          git reset --hard
+
+      - name: Restore Library cache
+        uses: actions/cache@v2
+        with:
+          path: Library
+          key: Library-build-${{ matrix.targetPlatform }}
+          restore-keys: |
+            Library-build-
+            Library-
+
+      - uses: webbertakken/unity-builder@v2
+        with:
+          targetPlatform: ${{ matrix.targetPlatform }}
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: Build (${{ matrix.targetPlatform }})
+          path: build/${{ matrix.targetPlatform }}
