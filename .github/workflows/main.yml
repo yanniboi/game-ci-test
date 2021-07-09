@@ -1,4 +1,4 @@
-name: Game.CI Actions 😎
+name: Test and Build to Pages 📝 🚧 🎮
 
 on:
   pull_request: {}
@@ -10,7 +10,7 @@ env:
 
 jobs:
   testRunner:
-    name: Test all modes ✨
+    name: Test all modes 📝
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -53,7 +53,7 @@ jobs:
 
   buildWebGL:
     needs: testRunner
-    name: Build for WebGL
+    name: Build for WebGL 🖥️
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
@@ -98,7 +98,7 @@ jobs:
 
   deployPages:
     needs: buildWebGL
-    name: Deploy to Github Pages
+    name: Deploy to Github Pages 🚀
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code

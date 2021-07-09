@@ -1,6 +1,8 @@
 name: Build Desktop Targets 🪟 🐧 🍎
 
-on: workflow_dispatch
+on: 
+  workflow_dispatch: {}
+  push: { tags: ['*'] }
 
 env:
   UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
@@ -8,7 +10,7 @@ env:
 jobs:
   buildAllPlatforms:
     needs: testRunner
-    name: Build for ${{ matrix.targetPlatform }}
+    name: Build for ${{ matrix.targetPlatform }} 🖥️
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
