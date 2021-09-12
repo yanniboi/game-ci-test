@@ -54,12 +54,12 @@ jobs:
       - uses: papeloto/action-zip@v1
         with:
           files: build/${{ matrix.targetPlatform }}/
-          dest: build/${{ matrix.targetPlatform }}.zip
+          dest: ${{ matrix.targetPlatform }}.zip
           
       - uses: ncipollo/release-action@v1
         with:
           name: Release ${{ matrix.targetPlatform }}
-          artifacts: build/*.zip
+          artifacts: '*.zip'
           body: "Release body text"
           tag: 0.0.1
           allowUpdates: true
