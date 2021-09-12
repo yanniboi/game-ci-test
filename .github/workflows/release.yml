@@ -58,9 +58,9 @@ jobs:
           
       - uses: ncipollo/release-action@v1
         with:
-          name: Release ${{ matrix.targetPlatform }}
+          name: Release ${GITHUB_REF##*/}
           artifacts: '*.zip'
-          body: "Release body text"
-          tag: 0.0.1
+          bodyFile: release.md
+          tag: 0.0.2
           allowUpdates: true
           token: ${{ secrets.GITHUB_TOKEN }}
