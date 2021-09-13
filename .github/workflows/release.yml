@@ -57,7 +57,7 @@ jobs:
           
       - uses: ncipollo/release-action@v1
         with:
-          name: Release ${{ GITHUB_REF }}
+          name: Release ${{ github.ref }}
           artifacts: '*.zip'
           bodyFile: release.md
           tag: 0.0.2
