@@ -56,7 +56,7 @@ jobs:
 
       - uses: actions/upload-artifact@v3
         with:
-          name: Build-WebGL
+          name: build-WebGL
           path: build/WebGL
 
   deployPages:
