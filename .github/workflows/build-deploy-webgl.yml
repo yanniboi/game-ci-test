@@ -65,7 +65,7 @@ jobs:
     name: Push code to branch build/webgl
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/download-artifact@v3
+      - uses: actions/checkout@v2
         env:
           GIT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
@@ -74,14 +74,22 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Push code to branch
         run: |
-          git init
-          git remote add origin "https://quangnguyen11:$GIT_TOKEN@github.com/quangnguyen11/game-ci-test"
-          git config --global user.name 'quangnguyen11'
-          git config --global user.email 'dquang888@gmail.com'
+          date > generated.txt
+          git config user.name quangnguyen11
+          git config user.email quang888@gmail.com
           git checkout -b build/webgl
           git add .
-          git commit -m "Build WebGL"
+          git commit -m "build webgl"
           git push --set-upstream origin build/webgl
+
+  #   git init
+  # git remote add origin "https://quangnguyen11:$GIT_TOKEN@github.com/quangnguyen11/game-ci-test"
+  # git config --global user.name 'quangnguyen11'
+  # git config --global user.email 'dquang888@gmail.com'
+  # git checkout -b build/webgl
+  # git add .
+  # git commit -m "Build WebGL"
+  # git push --set-upstream origin build/webgl
 
   #git remote add origin git@github.com:quangnguyen11/game-ci-test.git
 
