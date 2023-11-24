@@ -60,26 +60,43 @@ jobs:
           name: build-WebGL
           path: build/WebGL
 
-  deployPages:
-   needs: buildWebGL
-   name: Deploy to Github Pages 🚀
-   runs-on: ubuntu-latest
-   steps:
-     - name: Checkout code
-       uses: actions/checkout@v2
+  pushCode:
+    needs: buildWebGL
+    name: Push code to branch build/webgl
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v3
+        with:
+          name: build-WebGL
+          path: build
 
-     - uses: actions/download-artifact@v2
-       with:
-         name: build-WebGL
-         path: build
+      - uses: actions/checkout@v3
 
-     - name: Display structure of root files
-       run: ls -R
-       working-directory: build/WebGL
+      - name: Push code
+        run: |
+          git add .
+          git commit -m "Build WebGL"
+          git push
 
-     - name: Deploy 🚀
-       uses: JamesIves/github-pages-deploy-action@4.1.4
-       with:
-         branch: gh-pages
-         folder: build/WebGL
+  # deployPages:
+  #  needs: buildWebGL
+  #  name: Deploy to Github Pages 🚀
+  #  runs-on: ubuntu-latest
+  #  steps:
+  #    - name: Checkout code
+  #      uses: actions/checkout@v2
 
+  #    - uses: actions/download-artifact@v2
+  #      with:
+  #        name: build-WebGL
+  #        path: build
+
+  #    - name: Display structure of root files
+  #      run: ls -R
+  #      working-directory: build/WebGL
+
+  #    - name: Deploy 🚀
+  #      uses: JamesIves/github-pages-deploy-action@4.1.4
+  #      with:
+  #        branch: gh-pages
+  #        folder: build/WebGL
