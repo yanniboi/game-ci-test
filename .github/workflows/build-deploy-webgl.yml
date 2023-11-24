@@ -72,10 +72,12 @@ jobs:
           path: build
       - name: Push code to branch
         run: |
+          git init
+          git remote set-url origin git@github.com:quangnguyen11/game-ci-test.git
           git config --global user.name 'quanguyen'
           git config --global user.email 'dquang888@gmail.com'
           git commit -am "Build WebGL"
-          git push
+          git push --set-upstream origin build/webgl
 
   # deployPages:
   #  needs: buildWebGL
