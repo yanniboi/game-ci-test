@@ -67,19 +67,21 @@ jobs:
     steps:
       - uses: actions/download-artifact@v3
         with:
-          ref: build/webgl
           name: build-WebGL
           path: build
+          token: ${{ secrets.GITHUB_TOKEN }}
       - name: Push code to branch
         run: |
           git init
-          git remote add origin git@github.com:quangnguyen11/game-ci-test.git
+          git remote set-url origin "https://quangnguyen11:$GIT_TOKEN@github.com/quangnguyen11/game-ci-test"
           git config --global user.name 'quanguyen'
           git config --global user.email 'dquang888@gmail.com'
           git checkout -b build/webgl
           git add .
           git commit -m "Build WebGL"
           git push --set-upstream origin build/webgl
+
+  #git remote add origin git@github.com:quangnguyen11/game-ci-test.git
 
   # deployPages:
   #  needs: buildWebGL
