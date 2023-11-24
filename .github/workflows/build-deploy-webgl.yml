@@ -74,6 +74,8 @@ jobs:
 
       - name: Push code
         run: |
+          git config --global user.name 'quanguyen'
+          git config --global user.email 'dquang888@gmail.com'
           git add .
           git commit -m "Build WebGL"
           git push
