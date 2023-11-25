@@ -6,13 +6,13 @@ env:
   UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
 
 jobs:
-  checkLicense:
-    name: Check for the Unity license ☑️
-    runs-on: ubuntu-latest
-    steps:
-      - name: Fail - No license ☠️
-        if: ${{ !startsWith(env.UNITY_LICENSE, '<') }}
-        run: exit 1
+  # checkLicense:
+  #   name: Check for the Unity license ☑️
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Fail - No license ☠️
+  #       if: ${{ !startsWith(env.UNITY_LICENSE, '<') }}
+  #       run: exit 1
 
   # buildWebGL:
   #   needs: checkLicense
@@ -69,7 +69,7 @@ jobs:
         with:
           name: build-WebGL
           path: build
-          repository: https://github.com/quangnguyen11/game-ci-test.git
+          repository: quangnguyen11/game-ci-test
           ref: master
           token: ${{ secrets.GITHUB_TOKEN }}
           ssh-key: ${{ secrets.SSH_KEY }}
