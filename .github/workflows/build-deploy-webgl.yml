@@ -70,7 +70,7 @@ jobs:
           mv build/WebGL/WebGL Build
           git config user.name quangnguyen11
           git config user.email quang888@gmail.com
-          git checkout -b build/webgl
-          git add build
-          git commit -m "build webgl"
-          git push --set-upstream origin build/webgl
+          git checkout build/webgl
+          git add Build
+          git commit -m "build webgl `date`"
+          git push
