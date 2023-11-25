@@ -1,10 +1,9 @@
-name: GameCI Template 🎮
+name: Build WebGL Pipeline 🖥️
 
 on: push
 
 env:
   UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
-  GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
 
 jobs:
   checkLicense:
@@ -17,7 +16,7 @@ jobs:
 
   buildWebGL:
     needs: checkLicense
-    name: Build for WebGL 🖥️
+    name: Build WebGL
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -59,85 +58,19 @@ jobs:
         with:
           targetPlatform: WebGL
 
-      - name: Upload artifact to GH
-        uses: actions/upload-artifact@v3
-        with:
-          name: build-WebGL
-          path: build/WebGL
+      # to show artifact of builf in Github action uncomment these lines
+      # - name: Upload artifact to GH
+      #   uses: actions/upload-artifact@v3
+      #   with:
+      #     name: build-WebGL
+      #     path: build/WebGL
 
       - name: Push Build to branch build/webgl
         run: |
-          date > generated.txt
+          mv build/WebGL/WebGL Build
           git config user.name quangnguyen11
           git config user.email quang888@gmail.com
           git checkout -b build/webgl
           git add build
           git commit -m "build webgl"
           git push --set-upstream origin build/webgl
-
-  # pushCode:
-  #   name: Push code to branch build/webgl
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - name: Before checkout
-  #       run: ls -al
-
-  #     - name: Checkout code
-  #       uses: actions/checkout@v3
-  #       with:
-  #         ref: master
-
-  #     - name: After checkout
-  #       run: ls -al
-
-  #     - name: Push code to branch
-  #       run: |
-  #         date > generated.txt
-  #         git config user.name quangnguyen11
-  #         git config user.email quang888@gmail.com
-  #         git add .
-  #         git commit -m "build webgl"
-  #         git push --set-upstream origin build/webgl
-
-# install --directory ~/.ssh --mode 700
-# base64 -d <<< '${{ secrets.SSH_PRIVATE }}' > ~/.ssh/id_rsa
-# chmod 600 ~/.ssh/*
-# git init
-# git remote add origin "https://quangnguyen11:$GIT_TOKEN@github.com/quangnguyen11/game-ci-test"
-# git config user.name quangnguyen11
-# git config user.email quang888@gmail.com
-# git checkout -b build/webgl
-
-#   git init
-# git remote add origin "https://quangnguyen11:$GIT_TOKEN@github.com/quangnguyen11/game-ci-test"
-# git config --global user.name 'quangnguyen11'
-# git config --global user.email 'dquang888@gmail.com'
-# git checkout -b build/webgl
-# git add .
-# git commit -m "Build WebGL"
-# git push --set-upstream origin build/webgl
-
-#git remote add origin git@github.com:quangnguyen11/game-ci-test.git
-
-# deployPages:
-#  needs: buildWebGL
-#  name: Deploy to Github Pages 🚀
-#  runs-on: ubuntu-latest
-#  steps:
-#    - name: Checkout code
-#      uses: actions/checkout@v2
-
-#    - uses: actions/download-artifact@v2
-#      with:
-#        name: build-WebGL
-#        path: build
-
-#    - name: Display structure of root files
-#      run: ls -R
-#      working-directory: build/WebGL
-
-#    - name: Deploy 🚀
-#      uses: JamesIves/github-pages-deploy-action@4.1.4
-#      with:
-#        branch: gh-pages
-#        folder: build/WebGL
