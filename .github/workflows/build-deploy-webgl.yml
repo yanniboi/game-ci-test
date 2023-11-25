@@ -76,8 +76,8 @@ jobs:
           #path: build
           #repository: quangnguyen11/game-ci-test
           ref: master
-          token: ${{ secrets.GIT_TOKEN }}
-          ssh-key: ${{ secrets.SSH_KEY }}
+          # token: ${{ secrets.GIT_TOKEN }}
+          # ssh-key: ${{ secrets.SSH_KEY }}
 
       - name: After checkout
         run: ls -al
