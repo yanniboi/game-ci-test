@@ -82,20 +82,22 @@ jobs:
       - name: After checkout
         run: ls -al
 
-      # - name: Push code to branch
-      #   run: |
-      #     date > generated.txt
-      #     install --directory ~/.ssh --mode 700
-      #     base64 -d <<< '${{ secrets.SSH_PRIVATE }}' > ~/.ssh/id_rsa
-      #     chmod 600 ~/.ssh/*
-      #     git init
-      #     git remote add origin "https://quangnguyen11:$GIT_TOKEN@github.com/quangnguyen11/game-ci-test"
-      #     git config user.name quangnguyen11
-      #     git config user.email quang888@gmail.com
-      #     git checkout -b build/webgl
-      #     git add .
-      #     git commit -m "build webgl"
-      #     git push --set-upstream origin build/webgl
+      - name: Push code to branch
+        run: |
+          date > generated.txt
+          git add .
+          git commit -m "build webgl"
+          git push --set-upstream origin build/webgl
+
+# install --directory ~/.ssh --mode 700
+# base64 -d <<< '${{ secrets.SSH_PRIVATE }}' > ~/.ssh/id_rsa
+# chmod 600 ~/.ssh/*
+# git init
+# git remote add origin "https://quangnguyen11:$GIT_TOKEN@github.com/quangnguyen11/game-ci-test"
+# git config user.name quangnguyen11
+# git config user.email quang888@gmail.com
+# git checkout -b build/webgl
+
 #   git init
 # git remote add origin "https://quangnguyen11:$GIT_TOKEN@github.com/quangnguyen11/game-ci-test"
 # git config --global user.name 'quangnguyen11'
