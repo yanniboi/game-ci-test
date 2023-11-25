@@ -66,29 +66,36 @@ jobs:
     name: Push code to branch build/webgl
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Before checkout
+        run: ls -al
+
+      - name: Checkout code
+        uses: actions/checkout@v3
         with:
-          name: build-WebGL
-          path: build
-          repository: quangnguyen11/game-ci-test
+          #name: build-WebGL
+          #path: build
+          #repository: quangnguyen11/game-ci-test
           ref: master
           token: ${{ secrets.GIT_TOKEN }}
           ssh-key: ${{ secrets.SSH_KEY }}
-      - name: Push code to branch
-        run: |
-          date > generated.txt
-          install --directory ~/.ssh --mode 700
-          base64 -d <<< '${{ secrets.SSH_PRIVATE }}' > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/*
-          git init
-          git remote add origin "https://quangnguyen11:$GIT_TOKEN@github.com/quangnguyen11/game-ci-test"
-          git config user.name quangnguyen11
-          git config user.email quang888@gmail.com
-          git checkout -b build/webgl
-          git add .
-          git commit -m "build webgl"
-          git push --set-upstream origin build/webgl
 
+      - name: After checkout
+        run: ls -al
+
+      # - name: Push code to branch
+      #   run: |
+      #     date > generated.txt
+      #     install --directory ~/.ssh --mode 700
+      #     base64 -d <<< '${{ secrets.SSH_PRIVATE }}' > ~/.ssh/id_rsa
+      #     chmod 600 ~/.ssh/*
+      #     git init
+      #     git remote add origin "https://quangnguyen11:$GIT_TOKEN@github.com/quangnguyen11/game-ci-test"
+      #     git config user.name quangnguyen11
+      #     git config user.email quang888@gmail.com
+      #     git checkout -b build/webgl
+      #     git add .
+      #     git commit -m "build webgl"
+      #     git push --set-upstream origin build/webgl
 #   git init
 # git remote add origin "https://quangnguyen11:$GIT_TOKEN@github.com/quangnguyen11/game-ci-test"
 # git config --global user.name 'quangnguyen11'
