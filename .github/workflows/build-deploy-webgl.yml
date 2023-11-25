@@ -66,6 +66,7 @@ jobs:
           date > generated.txt
           git config user.name quangnguyen11
           git config user.email quang888@gmail.com
+          git checkout -b build/webgl
           git add .
           git commit -m "build webgl"
           git push --set-upstream origin build/webgl
