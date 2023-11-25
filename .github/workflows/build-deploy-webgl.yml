@@ -4,6 +4,7 @@ on: push
 
 env:
   UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+  GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
 
 jobs:
   # checkLicense:
@@ -71,7 +72,7 @@ jobs:
           path: build
           repository: quangnguyen11/game-ci-test
           ref: master
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GIT_TOKEN }}
           ssh-key: ${{ secrets.SSH_KEY }}
       - name: Push code to branch
         run: |
@@ -80,7 +81,7 @@ jobs:
           base64 -d <<< '${{ secrets.SSH_PRIVATE }}' > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/*
           git init
-          git remote add origin "git@github.com:quangnguyen11/game-ci-test.git"
+          git remote add origin "https://quangnguyen11:$GIT_TOKEN@github.com/quangnguyen11/game-ci-test"
           git config user.name quangnguyen11
           git config user.email quang888@gmail.com
           git checkout -b build/webgl
