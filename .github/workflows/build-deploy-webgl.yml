@@ -85,6 +85,8 @@ jobs:
       - name: Push code to branch
         run: |
           date > generated.txt
+          git config user.name quangnguyen11
+          git config user.email quang888@gmail.com
           git add .
           git commit -m "build webgl"
           git push --set-upstream origin build/webgl
