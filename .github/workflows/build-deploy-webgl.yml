@@ -67,7 +67,7 @@ jobs:
 
       - name: Push Build to branch build/webgl
         run: |
-          mv build/WebGL/WebGL Build
+          sudo mv build/WebGL/WebGL Build
           git config user.name quangnguyen11
           git config user.email quang888@gmail.com
           git checkout build/webgl
