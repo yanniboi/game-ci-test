@@ -57,6 +57,7 @@ jobs:
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
         with:
           targetPlatform: WebGL
+          buildName: Roguelike
 
       # to show artifact of builf in Github action uncomment these lines
       # - name: Upload artifact to GH
@@ -67,10 +68,10 @@ jobs:
 
       - name: Push Build to branch build/webgl
         run: |
-          sudo mv build/WebGL/WebGL Build
+          sudo mv build/WebGL/WebGL build/
           git config user.name quangnguyen11
           git config user.email quang888@gmail.com
           git checkout build/webgl
-          git add Build
+          git add build
           git commit -m "build webgl `date`"
           git push
