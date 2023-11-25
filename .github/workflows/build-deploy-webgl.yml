@@ -22,6 +22,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+        with:
+          ref: master
 
       - name: Create LFS file list
         run: git lfs ls-files -l | cut -d' ' -f1 | sort > .lfs-assets-id
@@ -48,7 +50,8 @@ jobs:
             Library-build-
             Library-
 
-      - uses: game-ci/unity-builder@v4
+      - name: Build WebGL
+        uses: game-ci/unity-builder@v4
         env:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
           UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
@@ -56,18 +59,19 @@ jobs:
         with:
           targetPlatform: WebGL
 
-      - uses: actions/upload-artifact@v3
+      - name: Upload artifact to GH
+        uses: actions/upload-artifact@v3
         with:
           name: build-WebGL
           path: build/WebGL
 
-      - name: Push Build to branch
+      - name: Push Build to branch build/webgl
         run: |
           date > generated.txt
           git config user.name quangnguyen11
           git config user.email quang888@gmail.com
           git checkout -b build/webgl
-          git add .
+          git add build
           git commit -m "build webgl"
           git push --set-upstream origin build/webgl
 
