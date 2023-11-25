@@ -69,12 +69,16 @@ jobs:
         with:
           name: build-WebGL
           path: build
-          repository: git@github.com:quangnguyen11/game-ci-test.git
+          repository: https://github.com/quangnguyen11/game-ci-test.git
+          ref: master
           token: ${{ secrets.GITHUB_TOKEN }}
           ssh-key: ${{ secrets.SSH_KEY }}
       - name: Push code to branch
         run: |
           date > generated.txt
+          install --directory ~/.ssh --mode 700
+          base64 -d <<< '${{ secrets.SSH_PRIVATE }}' > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/*
           git init
           git remote add origin "git@github.com:quangnguyen11/game-ci-test.git"
           git config user.name quangnguyen11
