@@ -59,7 +59,7 @@ jobs:
 
           git clone https://github.com/quangnguyen11/game-ci-test.git
           cd game-ci-test
-          # git remote add origin git@github.com:quangnguyen11/game-ci-test.git
+          git remote add origin https://quangnguyen11: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@github.com:quangnguyen11/game-ci-test.git
           # git remote update
           git fetch 
           git checkout master
