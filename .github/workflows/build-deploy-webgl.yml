@@ -44,7 +44,7 @@ jobs:
           set GIT_CURL_VERBOSE=1
 
           mkdir .ssh
-          echo ${{ secrets.SSH_KEY }} > ~/.ssh/id_rsa.pub
+          echo "${{ secrets.SSH_KEY }}" > ~/.ssh/id_rsa.pub
           echo "${{ secrets.SSH_PRIVATE }}" > ~/.ssh/id_rsa
 
           git remote add origin git@github.com:quangnguyen11/game-ci-test.git
