@@ -98,7 +98,6 @@ jobs:
           set GIT_TRACE=1
           set GIT_CURL_VERBOSE=1
 
-          eval $(ssh-agent -s)
           dir
           mkdir .ssh
 
@@ -106,6 +105,8 @@ jobs:
           echo "${{ secrets.SSH_KEY }}" > id_rsa.pub
           echo "${{ secrets.SSH_PRIVATE }}" > id_rsa
           ssh-keyscan -t rsa github.com >> known_hosts
+
+          Start-Service ssh-agent
           ssh-add id_rsa
 
           echo . > config
