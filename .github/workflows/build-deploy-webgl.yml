@@ -97,6 +97,8 @@ jobs:
           set GIT_TRACE=1
           set GIT_CURL_VERBOSE=1
 
+          cd\
+
           pwd
           dir
           mkdir .ssh
