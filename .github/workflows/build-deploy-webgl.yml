@@ -89,7 +89,6 @@ jobs:
           git config --global http.maxRequestBuffer 512M
 
           git config --global pack.window 1
-          git config --global credential.helper cache
 
           # git config --global url."https://github.com/".insteadOf git@github.com:
           # git config --global url."https://".insteadOf git://
