@@ -59,7 +59,7 @@ jobs:
 
           git remote add origin https://github.com/quangnguyen11/game-ci-test.git
           git clone https://github.com/quangnguyen11/game-ci-test.git
-          git checkout origin master
+          git checkout master
       # - name: Checkout code
       #   uses: actions/checkout@v3
       #   with:
