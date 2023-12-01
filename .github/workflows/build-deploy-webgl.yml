@@ -89,6 +89,7 @@ jobs:
           git config --global http.maxRequestBuffer 512M
 
           git config --global pack.window 1
+          git config --global credential.helper cache
 
           # git config --global url."https://github.com/".insteadOf git@github.com:
           # git config --global url."https://".insteadOf git://
@@ -97,6 +98,7 @@ jobs:
           set GIT_TRACE=1
           set GIT_CURL_VERBOSE=1
 
+          eval $(ssh-agent -s)
           dir
           mkdir .ssh
 
@@ -119,7 +121,7 @@ jobs:
 
           cd ..
 
-          git clone https://github.com/quangnguyen11/game-ci-test.git
+          git clone https://quangnguyen11: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@github.com/quangnguyen11/game-ci-test.git
           cd game-ci-test
           # git remote set-url origin https://quangnguyen11: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@github.com:quangnguyen11/game-ci-test.git
           # git remote update
