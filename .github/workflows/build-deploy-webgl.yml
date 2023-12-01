@@ -22,7 +22,6 @@ jobs:
       - name: Checkout code manual
         run: |
           git --version
-          git init
 
           git config --global user.name quangnguyen11
           git config --global user.email dquang888@gmail.com
@@ -57,11 +56,13 @@ jobs:
 
           cd ..
 
-          git remote add origin https://github.com/quangnguyen11/game-ci-test.git
+          # git remote add origin https://github.com/quangnguyen11/game-ci-test.git
           git clone https://github.com/quangnguyen11/game-ci-test.git
+          cd game-ci-test
           git remote update
           git fetch 
           git checkout --track origin/master
+          
           echo 'test' > log.txt
           git add .
           git commit -m "add test"
