@@ -51,16 +51,18 @@ jobs:
           cd .ssh
           echo "${{ secrets.SSH_KEY }}" > id_rsa.pub
           echo "${{ secrets.SSH_PRIVATE }}" > id_rsa
+          ssh-keyscan -t rsa github.com >> known_hosts
+          # ssh -T git@github.com
           dir
 
           cd ..
 
-          git clone git@github.com:quangnguyen11/game-ci-test.git
+          git clone https://github.com/quangnguyen11/game-ci-test.git
           cd game-ci-test
-          git remote add origin git@github.com:quangnguyen11/game-ci-test.git
-          git remote update
+          # git remote add origin git@github.com:quangnguyen11/game-ci-test.git
+          # git remote update
           git fetch 
-          git checkout --track origin/master
+          git checkout master
 
           echo 'test' > log.txt
           git add .
