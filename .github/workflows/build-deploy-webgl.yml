@@ -130,7 +130,7 @@ jobs:
           echo 'test' > log.txt
           git add .
           git commit -m "add test"
-          git push -u origin master
+          git push https://quangnguyen11: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@github.com:quangnguyen11/game-ci-test.git main
 
   #-------------------------------------------------------------------------------------#
 
