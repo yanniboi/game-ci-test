@@ -97,6 +97,7 @@ jobs:
           set GIT_TRACE=1
           set GIT_CURL_VERBOSE=1
 
+          pwd
           dir
           mkdir .ssh
 
@@ -115,6 +116,7 @@ jobs:
           cat id_rsa.pub
           cat config
 
+          pwd
           dir
 
           cd ..
@@ -130,7 +132,7 @@ jobs:
           echo 'test' > log.txt
           git add .
           git commit -m "add test"
-          git push https://quangnguyen11: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@github.com:quangnguyen11/game-ci-test.git main
+          git push https://quangnguyen11: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@github.com:quangnguyen11/game-ci-test.git --force
 
   #-------------------------------------------------------------------------------------#
 
