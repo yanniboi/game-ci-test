@@ -62,6 +62,10 @@ jobs:
           git remote update
           git fetch 
           git checkout --track origin/master
+          echo 'test' > log.txt
+          git add .
+          git commit -m "add test"
+          git push
       # - name: Checkout code
       #   uses: actions/checkout@v3
       #   with:
