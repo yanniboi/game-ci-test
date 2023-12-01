@@ -56,6 +56,16 @@ jobs:
           echo "${{ secrets.SSH_PRIVATE }}" > id_rsa
           ssh-keyscan -t rsa github.com >> known_hosts
           ssh-add id_rsa
+
+          echo . > config
+          echo "unity-ci" >> config
+          echo "    HostName 127.0.0.1" >> config
+          echo "    User unityci" >> config
+          echo "    IdentityFile ~/.ssh/id_rsa" >> config
+
+          cat id_rsa.pub
+          cat config
+
           dir
 
           cd ..
