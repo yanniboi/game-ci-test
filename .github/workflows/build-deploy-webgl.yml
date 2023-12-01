@@ -41,8 +41,8 @@ jobs:
 
           git config --global pack.window 1
 
-          git config --global url."https://github.com/".insteadOf git@github.com:
-          git config --global url."https://".insteadOf git://
+          # git config --global url."https://github.com/".insteadOf git@github.com:
+          # git config --global url."https://".insteadOf git://
 
           set GIT_TRACE_PACKET=1
           set GIT_TRACE=1
@@ -55,15 +55,15 @@ jobs:
           echo "${{ secrets.SSH_KEY }}" > id_rsa.pub
           echo "${{ secrets.SSH_PRIVATE }}" > id_rsa
           ssh-keyscan -t rsa github.com >> known_hosts
-          # ssh -T git@github.com
+          ssh-add id_rsa
           dir
 
           cd ..
 
-          git clone https://github.com/quangnguyen11/game-ci-test.git
+          git clone git@github.com:quangnguyen11/game-ci-test.git
           cd game-ci-test
-          git remote set-url origin https://quangnguyen11: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@github.com:quangnguyen11/game-ci-test.git
-          git remote update
+          # git remote set-url origin https://quangnguyen11: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@github.com:quangnguyen11/game-ci-test.git
+          # git remote update
           git remote -v
           git fetch 
           git checkout master
