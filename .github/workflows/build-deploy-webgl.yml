@@ -14,6 +14,34 @@ jobs:
   #       if: ${{ !startsWith(env.UNITY_LICENSE, '<') }}
   #       run: exit 1
 
+  checkoutCodeManual:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Git
+        run: |
+          git config --global core.compression 0
+          git config --global http.version HTTP/1.1
+          git config --global http.postBuffer 1024M
+          git config --global user.name quangnguyen11
+          git config --global user.email dquang888@gmail.com
+
+      - name: Display Git version
+        run: git --version
+
+      - name: Display Git status
+        run: git status
+
+      - name: Push code
+        run: |
+          echo 'test' > log.txt
+          git add .
+          git commit -m "add test"
+          git push -u origin master
+
   buildWebGL:
     # needs: checkLicense
     name: Build WebGL
