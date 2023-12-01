@@ -133,7 +133,7 @@ jobs:
           pwd
           ls
 
-          # git remote set-url origin https://quangnguyen11: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@github.com:quangnguyen11/game-ci-test.git
+          git remote set-url origin https://github.com:quangnguyen11/game-ci-test.git
           # git remote update
           git remote -v
           git fetch
