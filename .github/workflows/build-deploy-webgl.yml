@@ -41,6 +41,9 @@ jobs:
 
           git config --global pack.window 1
 
+          git config --global url."https://github.com/".insteadOf git@github.com:
+          git config --global url."https://".insteadOf git://
+
           set GIT_TRACE_PACKET=1
           set GIT_TRACE=1
           set GIT_CURL_VERBOSE=1
@@ -68,7 +71,7 @@ jobs:
           echo 'test' > log.txt
           git add .
           git commit -m "add test"
-          git push
+          git push -u origin master
       # - name: Checkout code
       #   uses: actions/checkout@v3
       #   with:
