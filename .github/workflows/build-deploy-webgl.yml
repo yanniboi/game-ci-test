@@ -100,7 +100,7 @@ jobs:
           cd\
 
           pwd
-          dir
+          ls
           mkdir .ssh
 
           cd .ssh
@@ -119,19 +119,19 @@ jobs:
           cat config
 
           pwd
-          dir
+          ls
 
           cd ..
 
 
           pwd
-          dir
+          ls
 
           git clone https://quangnguyen11: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@github.com/quangnguyen11/game-ci-test.git
           cd game-ci-test
 
           pwd
-          dir
+          ls
 
           # git remote set-url origin https://quangnguyen11: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@github.com:quangnguyen11/game-ci-test.git
           # git remote update
