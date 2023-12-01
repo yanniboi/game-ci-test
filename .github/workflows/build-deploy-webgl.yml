@@ -49,20 +49,19 @@ jobs:
           mkdir .ssh
 
           cd .ssh
-          dir
-
           echo "${{ secrets.SSH_KEY }}" > id_rsa.pub
           echo "${{ secrets.SSH_PRIVATE }}" > id_rsa
+          dir
 
           cd ..
 
-          # git remote add origin https://github.com/quangnguyen11/game-ci-test.git
-          git clone https://github.com/quangnguyen11/game-ci-test.git
+          git clone git@github.com:quangnguyen11/game-ci-test.git
           cd game-ci-test
+          git remote add origin git@github.com:quangnguyen11/game-ci-test.git
           git remote update
           git fetch 
           git checkout --track origin/master
-          
+
           echo 'test' > log.txt
           git add .
           git commit -m "add test"
