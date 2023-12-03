@@ -190,7 +190,7 @@ jobs:
         buildsPath: Client
         buildName: Roguelike
 
-    to show artifact of builf in Github action uncomment these lines
+    # to show artifact of builf in Github action uncomment these lines
     - name: Upload artifact to GH
       uses: actions/upload-artifact@v3
       with:
