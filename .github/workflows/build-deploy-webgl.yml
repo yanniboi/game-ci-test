@@ -148,61 +148,61 @@ jobs:
   buildWebGL:
     name: Build WebGL
     runs-on: windows-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+      with:
+        ref: master
 
-  - name: Checkout code
-    uses: actions/checkout@v3
-    with:
-      ref: master
+    - name: Create LFS file list
+      run: git lfs ls-files -l | cut -d' ' -f1 | sort > .lfs-assets-id
 
-  - name: Create LFS file list
-    run: git lfs ls-files -l | cut -d' ' -f1 | sort > .lfs-assets-id
+    - name: Restore LFS cache
+      uses: actions/cache@v2
+      id: lfs-cache
+      with:
+        path: .git/lfs
+        key: ${{ runner.os }}-lfs-${{ hashFiles('.lfs-assets-id') }}
 
-  - name: Restore LFS cache
-    uses: actions/cache@v2
-    id: lfs-cache
-    with:
-      path: .git/lfs
-      key: ${{ runner.os }}-lfs-${{ hashFiles('.lfs-assets-id') }}
+    - name: Git LFS Pull
+      run: |
+        git lfs pull
+        git add .
+        git reset --hard
 
-  - name: Git LFS Pull
-    run: |
-      git lfs pull
-      git add .
-      git reset --hard
+    - name: Restore Library cache
+      uses: actions/cache@v3
+      with:
+        path: Library
+        key: Library-build-WebGL
+        restore-keys: |
+          Library-build-
+          Library-
 
-  - name: Restore Library cache
-    uses: actions/cache@v3
-    with:
-      path: Library
-      key: Library-build-WebGL
-      restore-keys: |
-        Library-build-
-        Library-
+    - name: Build WebGL
+      uses: game-ci/unity-builder@v4
+      env:
+        UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+        UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+        UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+      with:
+        targetPlatform: WebGL
+        buildsPath: Client
+        buildName: Roguelike
 
-  - name: Build WebGL
-    uses: game-ci/unity-builder@v4
-    env:
-      UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
-      UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
-      UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
-    with:
-      targetPlatform: WebGL
-      buildsPath: Client
-      buildName: Roguelike
+    to show artifact of builf in Github action uncomment these lines
+    - name: Upload artifact to GH
+      uses: actions/upload-artifact@v3
+      with:
+        name: build-WebGL
+        path: build/WebGL
 
-  to show artifact of builf in Github action uncomment these lines
-  - name: Upload artifact to GH
-    uses: actions/upload-artifact@v3
-    with:
-      name: build-WebGL
-      path: build/WebGL
-
-  - name: Push Build to branch build/webgl
-    run: |
-      ls -R
-      git config user.name quangnguyen11
-      git config user.email quang888@gmail.com
-      git checkout build/webgl
-      git add Client
-      git commit -m "build webgl `date`"
-      git push
+    - name: Push Build to branch build/webgl
+      run: |
+        ls -R
+        git config user.name quangnguyen11
+        git config user.email quang888@gmail.com
+        git checkout build/webgl
+        git add Client
+        git commit -m "build webgl `date`"
+        git push
